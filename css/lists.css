@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.nav{
+	overflow: hidden;
+}
+.nav .sk .sklist{
+	float: left;
+	
+}
+.nav .sk .sklist ul li{
+	float: left;
+}
+.nav .sk .sklist ul li a{
+	display: block;
+	line-height: 47px;
+	padding: 0 30px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+}
+.nav .sk .skcon{
+	float: left;
+}
+.nav .sk .skcon ul li{
+	float: left;
+}
+.nav .sk .skcon ul li a{
+	display: block;
+	line-height: 49px;
+	padding: 0 20px;
+	font-size: 14px;
+}
+/*注意此处操作*/
+.nav .sk .skcon ul li:last-child a::after{
+	font-family: 'icomoon';
+	content: "\e91e";
+}
+.skcontainer .skhd{
+	height: 120px;
+	background: url("../images/banner1.png") no-repeat;
+}
+.skcontainer .skbd ul li{
+	float: left;
+	width: 290px;
+	height: 460px;
+	border: 1px solid #fff;
+}
+.skcontainer .skbd ul li:hover{
+	border: 1px solid #c81523;
+}
