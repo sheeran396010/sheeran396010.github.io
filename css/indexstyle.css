@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fixnav{
+	position: fixed;
+	top: 200px;
+	width: 150px;
+	background-color: #2b2e4a;
+	border: 3px solid #f07b3f;
+	border-radius: 20px;
+	overflow: hidden;
+	z-index: 2;
+}
+.fixnav ul li{
+	height: 80px;
+	line-height: 80px;
+	margin-left: 30px;
+}
+.fixnav ul li a{
+	color: #fff;
+	font-size: 18px;
+}
+.fixnav ul li a:hover{
+	color: #f07b3f;
+}
+.bgimg {
+    position: relative;
+	z-index: -2;
+	overflow: hidden;
+	height: 800px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6; /* 透明度为50% */
+}
+.welcome h3,p{
+	position: absolute;
+	
+	color:#e84545;
+	
+}
+.welcome h3{
+	top: 50px;
+	left: 300px;
+	font-size: 180px;
+}
+.welcome p{
+	top: 350px;
+	left: 600px;
+	font-size: 120px;
+}
+.ts{
+	position: absolute;
+	right: 50%;
+	top: 90%;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top-color: #fff;
+}
+.ts1{
+	position: absolute;
+	right: 48.4%;
+	top: 85%;
+	width: 75px;
+	height: 75px;
+	border: 3px solid #fff;
+	transform:rotate(45deg);
+	transform-origin: left top;
+}
+
+
+
+.bd{
+	margin-left: 150px;
+	margin-right: 200px;
+	border-left: 3px solid #f07b3f;
+	border-right: 3px solid #f07b3f;
+	border-radius: 20px;
+	height: 3000px;
+}
+
+
+
+
+.z{
+	height: 8000px;
+}
