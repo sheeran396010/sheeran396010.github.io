@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*来自京东*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*清除em和i的默认斜体*/
+em,
+i {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    /*	照顾低版本浏览器，img加链接是有边框*/
+    border: 0;
+    /*	取消图片底侧的空白间隙，以中部对齐*/
+    vertical-align: middle
+}
+
+button {
+    /*	当鼠标经过button时变为小手*/
+    cursor: pointer
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    /*	京东的自定义样式*/
+    color: #c81623
+}
+
+button,
+input {
+    /*	对button和input指定字体*/
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    border: 0;
+    outline: none;
+}
+
+body {
+    /*	清除放大时的锯齿，css3的属性*/
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
+
+/*京东自定义样式，隐藏元素*/
+.hide,
+.none {
+    display: none
+}
+
+/*清除浮动*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
